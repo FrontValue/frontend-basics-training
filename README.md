@@ -6,8 +6,7 @@ Slides can be found [here](https://docs.google.com/presentation/d/1PhKGOlDLEPDNM
 
 ## Exercises
 
-
-- [Exercise 1](1-html-basics/README.md)
-- [Exercise 2](2-CSS-basic-layout/README.md)
-- [Exercise 3](3-table/README.md)
-- [Exercise 4](4-form/README.md)
+- [Exercise #1: HTML basics](1-html-basics/README.md)
+- [Exercise #2: CSS basics](2-CSS-basic-layout/README.md)
+- [Exercise #3: Tables](3-table/README.md)
+- [Exercise #4: Forms](4-form/README.md)
