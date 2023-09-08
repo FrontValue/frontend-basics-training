@@ -4,7 +4,7 @@
 
 
 
-1. Create an HTML file (index.html) with the following structure:
+1. Create an HTML file (index.html) with the following structure (or simply use the ```index.html``` file in this folder):
 
 ```html
 <!DOCTYPE html>
