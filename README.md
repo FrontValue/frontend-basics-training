@@ -1,12 +1,46 @@
-# Frontend Basics training
+# Exercise #5 - Flexbox
 
-The assignments for the Frontend basics training
+### Build a webpage layout with a header, main content area, sidebar, and footer using CSS Flexbox.
 
-Slides can be found [here](https://docs.google.com/presentation/d/1PhKGOlDLEPDNMo70DXiirCrjLnn_8aIbNABBJW9k7YE/edit?usp=sharing).
 
-## Exercises
 
-- [Exercise #1: HTML basics](1-html-basics/README.md)
-- [Exercise #2: CSS basics](2-CSS-basic-layout/README.md)
-- [Exercise #3: Tables](3-table/README.md)
-- [Exercise #4: Forms](4-form/README.md)
+1. Create an HTML file (index.html) with the following structure:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Flexbox Layout Exercise</title>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+    <main>
+      <section class="sidebar">
+        <h2>Sidebar</h2>
+        <p>This is the sidebar content.</p>
+      </section>
+      <section class="content">
+        <h2>Main Content</h2>
+        <p>This is the main content of the webpage.</p>
+      </section>
+    </main>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>
+```
+
+2. Create a ```style.css``` file and save it in the same folder as the html file. 
+
+3. Edit the ```style.css``` file and use the CSS Flexbox properties to achieve the following layout:
+
+The header and footer should be fixed at the top and bottom of the page, respectively.
+The main content area should take up the remaining vertical space between the header and footer.
+The sidebar and content sections should be side by side within the main content area.
+Customize the styles as you like (colors, fonts, etc.) to make the layout visually appealing.
